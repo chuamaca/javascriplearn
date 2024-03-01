@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Javascript</title>
+</head>
+<body>
+    <h1>Fundamentos de JavaScript</h1>
+
+    <!-- varibles var y let -->
+    <script>
+        var hola="Hola Mundo"
+        let hello="Hello work"
+        console.log(hola)
+        console.log(hello)
+        console.log(window)
+        console.log(window.hello)
+        console.log(window.hola)
+
+        // ambito de bloque
+        let musica="rock"
+
+        console.log("varible musica antes de bloque", musica);
+
+        {
+            let musica ="Pop"
+
+            console.log("La varible musica antes del bloque", musica)
+        }
+        console.log("La varible musica antes del bloque", musica)
+    </script>
+
+    <script>
+        /* varible de tipo constantes son permanetes
+        No puedes inicializar
+        
+        */
+        console.log(" ************** varible de tipo constantes ***********************")
+        const PI = 3.1416
+        console.log(PI)
+
+       
+
+        const objeto = {
+            nombre:"Cesar",
+            edad:45
+        }
+
+        const colores =[
+            "blanco","rojo"
+        ]
+
+        console.log(objeto)
+        console.log(colores)
+
+        objeto.correo="ce4wsarhuamigmail"
+
+        colores.push("verde")
+        
+        console.log(objeto)
+        console.log(colores)
+
+
+
+
+    </script>
+
+
+
+
+    
+</body>
+</html>

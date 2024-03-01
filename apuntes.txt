@@ -1,0 +1,29 @@
+Apuntes:
+https://jonmircha.com/javascript
+
+Las varibles tiene un scoop, ya que deben tener un ambito
+
+varibles var => Pertenece a todo el ambito
+varibles let => Pertene a un bloque del ambito
+
+varibles cons=>
+varibles cons como tipos de datos primitivos no cambia
+cons igv=0.18
+
+
+cuando son valores compuestos se accede a la referencia del valor 
+const objeto = {
+    nombre:"Cesar",
+    edad:45
+}
+
+const colores =[
+    "blanco","rojo"
+]
+
+console.log(objeto)
+console.log(colores)
+
+objeto.correo="ce4wsarhuamigmail"
+
+colores.push("verde")
